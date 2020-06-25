@@ -1,0 +1,44 @@
+#coin {
+    position: absolute;
+    animation: float 2s infinite;
+        -moz-animation: float 2s infinite; /*mozilla*/
+        -webkit-animation: float 2s infinite; /*chrome sagari*/
+        -o-animation: float 2s infinite; /*Opera */
+}
+
+@keyframes float 
+            {
+                0% {margin-top: 30px;}
+                50% {margin-top: -10px;}
+                100% {margin-top: 30px;}
+            } 
+            @-o-keyframes float 
+            {
+                    0% {margin-top: 30px;}
+                    50% {margin-top: -10px;}
+                    100% {margin-top: 30px;}
+            }
+            @-moz-keyframes float 
+            {
+                0% {margin-top: 30px;}
+                50% {margin-top: -10px;}
+                100% {margin-top: 30px;}
+            }
+            @-webkit-keyframes float 
+            {
+                0% {margin-top: 30px;}
+                25% {margin-top: 20px;}
+                50% {margin-top: -10px;}
+                100% {margin-top: 30px;}
+            }
+#link {
+    margin-top: 20%;
+}
+
+@media screen  and (max-width:750px){
+    #animationlink {
+        visibility: hidden;
+        max-width: 0px;
+    }
+    
+}

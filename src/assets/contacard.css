@@ -1,0 +1,40 @@
+#conta {
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    margin-right: 15px;
+    margin-bottom: 10px;
+}
+
+#conta:hover {
+    box-shadow: 22px 13px 63px -24px grey ;
+    transition: 0.4s;
+}
+
+#categorias {
+    background-color: white;
+    width: 100%;
+    overflow-y: scroll;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    height: 300px ;
+}
+
+#excluir {
+   margin-left: 5px;
+   height: 30px;
+}
+
+#categorias-2 {
+    background-color: white;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+#categorias-3 {
+    background-color: white;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+}

@@ -1,0 +1,51 @@
+#formlink {
+    vertical-align: middle;
+}
+
+#fontpattern{
+    font-family: 'Exo 2', sans-serif;
+}
+
+#fontpattern h2 {
+    font-weight: bolder;
+}
+
+#navlink {
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+ 
+}
+#helpcard{
+ text-align: center;
+}
+#cardhelp{
+    background-color: orangered;
+    color: white;
+}
+
+#helpbtn {
+    border-radius: 50%;
+    background-color: grey;
+    border: grey;
+    width: 70px;
+    height: 70px;
+    
+}   #helpbtn:hover{
+        background-color: orangered;
+    }
+
+
+#menu {
+   background-color: white;
+   width: 100%;
+}
+
+#cardbody {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+#perfilform{
+    background-color: white;
+}
